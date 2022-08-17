@@ -1,0 +1,115 @@
+/**********************************************************************************************
+-- General
+**********************************************************************************************/
+:root{
+    --official_green: #83bd3f;
+    --official_blue: #030e9e;
+}
+html, body{
+    box-sizing: content-box;
+    /*font-family: "Montserrat", "Verdana", sans-serif;*/
+    font-size: 100%;
+    
+}
+a { text-decoration: none !important; }
+p { margin: 0; line-height: 1.4; }
+
+/**********************************************************************************************
+-- Body
+**********************************************************************************************/
+.container__body{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+
+/**********************************************************************************************
+-- Contenido
+**********************************************************************************************/
+.container__main{
+    width: 100%;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main--content{
+    flex-wrap: wrap;
+}
+
+
+/**********************************************************************************************
+-- Header
+**********************************************************************************************/
+.container__header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;    
+}
+.wrapper__logo{
+    max-width: 35rem;
+    width: 100%;
+}
+.wrapper__logo .escudo{
+    max-width: 25rem;
+    width: 100%;
+}
+.wrapper__logo .logo{
+    max-width: 35rem;
+    width: 100%;
+}
+.wrapper__logo--interno .escudo{
+    max-width: 15rem;
+    width: 100%;
+}
+.wrapper__logo--interno .logo{
+    max-width: 25rem;
+    width: 100%;
+}
+.container__header h1{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--official_blue);
+    padding: 3rem 0 5rem;
+    /*text-transform: uppercase;*/
+}
+.titulo--interno{
+    font-size: 1.8rem !important;
+    padding: 2rem 0 2rem !important;
+}
+.registro--logo{
+    max-width: 20rem;
+    width: 100%;
+}
+
+/**********************************************************************************************
+-- Footer
+**********************************************************************************************/
+.container__footer{
+    width: 100%;
+    text-align: center;
+    padding-bottom: .5rem;
+    margin-top: 2rem;
+}
+.container__footer p{
+    font-size: 1.2rem;
+    color: var(--official_blue);
+}
+
+/**********************************************************************************************
+-- Puntero
+**********************************************************************************************/
+.pointer {cursor: pointer;}
+
+
